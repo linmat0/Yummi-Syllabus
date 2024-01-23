@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715040942B5FEF2500203986 /* Yummi_SyllabusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715040932B5FEF2500203986 /* Yummi_SyllabusApp.swift */; };
+		715040962B5FEF2500203986 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715040952B5FEF2500203986 /* ContentView.swift */; };
+		715040982B5FEF2700203986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715040972B5FEF2700203986 /* Assets.xcassets */; };
+		7150409B2B5FEF2700203986 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7150409A2B5FEF2700203986 /* Preview Assets.xcassets */; };
+		715040A52B5FEF2700203986 /* Yummi_SyllabusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715040A42B5FEF2700203986 /* Yummi_SyllabusTests.swift */; };
+		715040AF2B5FEF2800203986 /* Yummi_SyllabusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715040AE2B5FEF2800203986 /* Yummi_SyllabusUITests.swift */; };
+		715040B12B5FEF2800203986 /* Yummi_SyllabusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715040B02B5FEF2800203986 /* Yummi_SyllabusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715040A12B5FEF2700203986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715040882B5FEF2400203986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7150408F2B5FEF2400203986;
+			remoteInfo = "Yummi Syllabus";
+		};
+		715040AB2B5FEF2800203986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715040882B5FEF2400203986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7150408F2B5FEF2400203986;
+			remoteInfo = "Yummi Syllabus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		715040902B5FEF2500203986 /* Yummi Syllabus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yummi Syllabus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715040932B5FEF2500203986 /* Yummi_SyllabusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yummi_SyllabusApp.swift; sourceTree = "<group>"; };
+		715040952B5FEF2500203986 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		715040972B5FEF2700203986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7150409A2B5FEF2700203986 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		715040A02B5FEF2700203986 /* Yummi SyllabusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yummi SyllabusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715040A42B5FEF2700203986 /* Yummi_SyllabusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yummi_SyllabusTests.swift; sourceTree = "<group>"; };
+		715040AA2B5FEF2800203986 /* Yummi SyllabusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yummi SyllabusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715040AE2B5FEF2800203986 /* Yummi_SyllabusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yummi_SyllabusUITests.swift; sourceTree = "<group>"; };
+		715040B02B5FEF2800203986 /* Yummi_SyllabusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yummi_SyllabusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7150408D2B5FEF2400203986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7150409D2B5FEF2700203986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715040A72B5FEF2800203986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715040872B5FEF2400203986 = {
+			isa = PBXGroup;
+			children = (
+				715040922B5FEF2500203986 /* Yummi Syllabus */,
+				715040A32B5FEF2700203986 /* Yummi SyllabusTests */,
+				715040AD2B5FEF2800203986 /* Yummi SyllabusUITests */,
+				715040912B5FEF2500203986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		715040912B5FEF2500203986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715040902B5FEF2500203986 /* Yummi Syllabus.app */,
+				715040A02B5FEF2700203986 /* Yummi SyllabusTests.xctest */,
+				715040AA2B5FEF2800203986 /* Yummi SyllabusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715040922B5FEF2500203986 /* Yummi Syllabus */ = {
+			isa = PBXGroup;
+			children = (
+				715040932B5FEF2500203986 /* Yummi_SyllabusApp.swift */,
+				715040952B5FEF2500203986 /* ContentView.swift */,
+				715040972B5FEF2700203986 /* Assets.xcassets */,
+				715040992B5FEF2700203986 /* Preview Content */,
+			);
+			path = "Yummi Syllabus";
+			sourceTree = "<group>";
+		};
+		715040992B5FEF2700203986 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7150409A2B5FEF2700203986 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		715040A32B5FEF2700203986 /* Yummi SyllabusTests */ = {
+			isa = PBXGroup;
+			children = (
+				715040A42B5FEF2700203986 /* Yummi_SyllabusTests.swift */,
+			);
+			path = "Yummi SyllabusTests";
+			sourceTree = "<group>";
+		};
+		715040AD2B5FEF2800203986 /* Yummi SyllabusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				715040AE2B5FEF2800203986 /* Yummi_SyllabusUITests.swift */,
+				715040B02B5FEF2800203986 /* Yummi_SyllabusUITestsLaunchTests.swift */,
+			);
+			path = "Yummi SyllabusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7150408F2B5FEF2400203986 /* Yummi Syllabus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715040B42B5FEF2800203986 /* Build configuration list for PBXNativeTarget "Yummi Syllabus" */;
+			buildPhases = (
+				7150408C2B5FEF2400203986 /* Sources */,
+				7150408D2B5FEF2400203986 /* Frameworks */,
+				7150408E2B5FEF2400203986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yummi Syllabus";
+			productName = "Yummi Syllabus";
+			productReference = 715040902B5FEF2500203986 /* Yummi Syllabus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7150409F2B5FEF2700203986 /* Yummi SyllabusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715040B72B5FEF2800203986 /* Build configuration list for PBXNativeTarget "Yummi SyllabusTests" */;
+			buildPhases = (
+				7150409C2B5FEF2700203986 /* Sources */,
+				7150409D2B5FEF2700203986 /* Frameworks */,
+				7150409E2B5FEF2700203986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715040A22B5FEF2700203986 /* PBXTargetDependency */,
+			);
+			name = "Yummi SyllabusTests";
+			productName = "Yummi SyllabusTests";
+			productReference = 715040A02B5FEF2700203986 /* Yummi SyllabusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		715040A92B5FEF2800203986 /* Yummi SyllabusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715040BA2B5FEF2800203986 /* Build configuration list for PBXNativeTarget "Yummi SyllabusUITests" */;
+			buildPhases = (
+				715040A62B5FEF2800203986 /* Sources */,
+				715040A72B5FEF2800203986 /* Frameworks */,
+				715040A82B5FEF2800203986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715040AC2B5FEF2800203986 /* PBXTargetDependency */,
+			);
+			name = "Yummi SyllabusUITests";
+			productName = "Yummi SyllabusUITests";
+			productReference = 715040AA2B5FEF2800203986 /* Yummi SyllabusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715040882B5FEF2400203986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7150408F2B5FEF2400203986 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7150409F2B5FEF2700203986 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7150408F2B5FEF2400203986;
+					};
+					715040A92B5FEF2800203986 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7150408F2B5FEF2400203986;
+					};
+				};
+			};
+			buildConfigurationList = 7150408B2B5FEF2400203986 /* Build configuration list for PBXProject "Yummi Syllabus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715040872B5FEF2400203986;
+			productRefGroup = 715040912B5FEF2500203986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7150408F2B5FEF2400203986 /* Yummi Syllabus */,
+				7150409F2B5FEF2700203986 /* Yummi SyllabusTests */,
+				715040A92B5FEF2800203986 /* Yummi SyllabusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7150408E2B5FEF2400203986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7150409B2B5FEF2700203986 /* Preview Assets.xcassets in Resources */,
+				715040982B5FEF2700203986 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7150409E2B5FEF2700203986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715040A82B5FEF2800203986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7150408C2B5FEF2400203986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715040962B5FEF2500203986 /* ContentView.swift in Sources */,
+				715040942B5FEF2500203986 /* Yummi_SyllabusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7150409C2B5FEF2700203986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715040A52B5FEF2700203986 /* Yummi_SyllabusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715040A62B5FEF2800203986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715040AF2B5FEF2800203986 /* Yummi_SyllabusUITests.swift in Sources */,
+				715040B12B5FEF2800203986 /* Yummi_SyllabusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		715040A22B5FEF2700203986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7150408F2B5FEF2400203986 /* Yummi Syllabus */;
+			targetProxy = 715040A12B5FEF2700203986 /* PBXContainerItemProxy */;
+		};
+		715040AC2B5FEF2800203986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7150408F2B5FEF2400203986 /* Yummi Syllabus */;
+			targetProxy = 715040AB2B5FEF2800203986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		715040B22B5FEF2800203986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		715040B32B5FEF2800203986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715040B52B5FEF2800203986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yummi Syllabus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmat.Yummi-Syllabus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715040B62B5FEF2800203986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yummi Syllabus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmat.Yummi-Syllabus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		715040B82B5FEF2800203986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmat.Yummi-SyllabusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yummi Syllabus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yummi Syllabus";
+			};
+			name = Debug;
+		};
+		715040B92B5FEF2800203986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmat.Yummi-SyllabusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yummi Syllabus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yummi Syllabus";
+			};
+			name = Release;
+		};
+		715040BB2B5FEF2800203986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmat.Yummi-SyllabusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yummi Syllabus";
+			};
+			name = Debug;
+		};
+		715040BC2B5FEF2800203986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linmat.Yummi-SyllabusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yummi Syllabus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7150408B2B5FEF2400203986 /* Build configuration list for PBXProject "Yummi Syllabus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715040B22B5FEF2800203986 /* Debug */,
+				715040B32B5FEF2800203986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715040B42B5FEF2800203986 /* Build configuration list for PBXNativeTarget "Yummi Syllabus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715040B52B5FEF2800203986 /* Debug */,
+				715040B62B5FEF2800203986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715040B72B5FEF2800203986 /* Build configuration list for PBXNativeTarget "Yummi SyllabusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715040B82B5FEF2800203986 /* Debug */,
+				715040B92B5FEF2800203986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715040BA2B5FEF2800203986 /* Build configuration list for PBXNativeTarget "Yummi SyllabusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715040BB2B5FEF2800203986 /* Debug */,
+				715040BC2B5FEF2800203986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715040882B5FEF2400203986 /* Project object */;
+}
